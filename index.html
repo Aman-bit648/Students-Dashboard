@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Student Dashboard</title>
+
+  </*--Boostrap CDN--* />
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <link rel="icon" href="https://tse3.mm.bing.net/th?id=OIP.gVWBpl2uGsD5Xox6uQT9-wHaHa&pid=Api&P=0&w=300&h=300">
+
+  </*-----Google Fonts-----*/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+</*--Navbar--* />
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Intely</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto  mb-lg-0 ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Tutoring</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Mycourse</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="images/men.jpeg" alt="" width="32" height="32" class="rounded-circle me-2">
+              login
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">New project</a></li>
+              <li><a class="dropdown-item" href="#">Setting</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  </*-----top header-----* />
+
+  <div class="title">
+    <section class="coloured-section">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="order">Hi, champion!</h1>
+          <h5 class="do-It">Don't forget to complete your dialy home work.</h5>
+          <h5 class="do-It">Have a nice day!</h5>
+          <button type="button" class="btn  btn-lg">Home work</button>
+        </div>
+    </section>
+    <div class="col-lg-6">
+      <img class="girl-image" src="girl.jpeg" alt="girl-mockup">
+    </div>
+  </div>
+  </div>
+
+  </*-----linkup-----* />
+
+  </*-----leaderboard-----* />
+
+  <section class="card " id="middel">
+    <div class="col">
+      <div class="row">
+        <div class="label  col-lg-2 col-md-6">
+          <h4 class="header">Leaderboard</h4>
+
+          <table>
+            <thead>
+              <tr class="tool-kit">
+                <td>Rank</td>
+                <td>Name</td>
+                <td>Best Score</td>
+                <td>Points</td>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td class="offset">1</td>
+                <td>Patrik avesa Demona</td>
+                <td class="offset">97</td>
+                <td>3424</td>
+              </tr>
+
+              <tr>
+                <td class="offset">2</td>
+                <td>Neon Simons</td>
+                <td class="offset">90</td>
+                <td>3144</td>
+              </tr>
+
+              <tr>
+                <td class="offset">5</td>
+                <td>Steve johnson</td>
+                <td class="offset">82</td>
+                <td>2624</td>
+              </tr>
+
+              <tr>
+                <td class="offset">8</td>
+                <td>Sam karan</td>
+                <td class="offset">79</td>
+                <td>2610</td>
+              </tr>
+
+              <tr>
+                <td class="offset">13</td>
+                <td>Andria rowspan</td>
+                <td class="offset">74</td>
+                <td>3213</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        </*-----lessons tab-----* />
+
+        <div class="lessons  col-lg-2 col-md-6">
+          <h4 class="header">Upcoming lessons</h4>
+          <table>
+            <tbody>
+              <tr>
+                <td class="of-it">Jan,10<p class="para">7:00 am</p>
+                </td>
+                <td class="divider">Math.Algebra<p class="para">Mordana</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="of-it">Jan,10<p class="para">1:00 pm</p>
+                </td>
+                <td class="divider">Philoshpy<p class="para">Kristin lonaldo</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="of-it">Jun,11<p class="para">3:00 pm</p>
+                </td>
+                <td class="divider">Tutoring.French language<p class="para">Micho kaku</p>
+                </td>
+              </tr>
+              <tr>
+                <td class="of-it">Jun,11<p class="para">5:00 pm</p>
+                </td>
+                <td class="divider">System of design<p class="para">Jessica krug</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        </*------tasks tab------* />
+
+        <div class="col-lg-4 col-md-12">
+          <h4 class="go-It">Tasks</h4>
+          <div class="T-box">
+            <label><input class="check" type="checkbox" name="" value="" />Concise history of physics</label>
+            <p class="paragraph inline">Due from 2 may 2020</p>
+            <p class="inline forIt">Physics</p>
+            <p class="name">Mr Alex Robert</p>
+            <img class="image" src="boy.jpeg" alt="boy-image">
+          </div>
+
+          <div class="T-box">
+            <label><input class="check" type="checkbox" name="" value="" />Make 3 artocrt on philosphy</label>
+            <p class="paragraph inline">Due on 4:30pm, 2 may 2020</p>
+            <p class="inline toIt">Art</p>
+            <p class="name">Mrs.Nikki Bella</p>
+            <img class="image" src="lady.jpeg" alt="lady-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </*------Your Courses------* />
+
+
+  <section class="lower-one" id="course">
+    <h4 class="top"> Your Course</h4>
+    <p Class="drop">26 Courses</p>
+
+    <div class="row">
+
+      <div class="callIt col-lg-4 col-sm-12">
+        <p class="course">BEGINNER</p>
+        <h5 class="era">E-Commerce</h5>
+        <p>by Albert desu</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <img class="shadow" src="shop.jpeg" alt="shop-image">
+      </div>
+      <div class="OfIt col-lg-4 col-sm-12">
+        <p class="course">ADVANCED</p>
+        <h5 class="era">Daily Workout</h5>
+        <p>by Robert johnson</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <img class="shadow" src="workout.jpeg" alt="workout-images">
+      </div>
+      <div class="readIt col-lg-4 col-sm-12">
+        <p class="course">INTERMIADTE</p>
+        <h5 class="era">Air Sociology</h5>
+        <p>by Robert johnson</p>
+        <div class="progress">
+          <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+        </div>
+        <img class="shadow" src="earth.jpeg" alt="earth-image">
+      </div>
+    </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
